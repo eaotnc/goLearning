@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 func rating(score float32) string {
@@ -29,4 +30,12 @@ func main() {
  fmt.Println(rating(6)) // Output: average
  fmt.Println(rating(8)) // Output: good
  fmt.Println(rating(10)) // Output: excellent
+
+  aRating:= rating(7)
+  aRating= rating(10)
+ fmt.Println("aRating: ",aRating) // Output: average
+
+var bRating= rating(7)
+  bRating= rating(10)
+ fmt.Println("bRating: ",bRating) // Output: average
 }
