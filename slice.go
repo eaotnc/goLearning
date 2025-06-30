@@ -4,6 +4,7 @@ import "fmt"
 
 func main(){
      
+	
 	// create slice of user lating for move in 2 slices 
 	var userRatings = []int{5, 4, 3, 2, 1}
 	var userRatings2 = []int{1, 2, 3, 4, 5}
